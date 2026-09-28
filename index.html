@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Angenelle's Net ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Pacifico&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="background">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+
+        <div class="stars">✦　⋆　✧　✦　⋆　✧　✦　⋆</div>
+        <div class="stars stars2">⋆　✦　✧　⋆　✦　✧　⋆</div>
+    </div>
+
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+
+        <div class="logo">
+            angenelle.exe ♡
+        </div>
+
+        <div class="nav-links">
+
+            <button onclick="showPage('home')">
+                home
+            </button>
+
+            <button onclick="showPage('about')">
+                about me
+            </button>
+
+            <button onclick="showPage('hobbies')">
+                hobbies
+            </button>
+
+            <button onclick="showPage('movies')">
+                movies
+            </button>
+
+            <button onclick="showPage('friends')">
+                friends
+            </button>
+
+            <button onclick="showPage('nursing')">
+                nursing life 🩺
+            </button>
+
+        </div>
+
+        <div class="online">
+            <span></span> online
+        </div>
+
+    </nav>
+
+
+    <!-- MAIN -->
+    <main>
+
+
+        <!-- ================= HOME ================= -->
+
+        <section id="home" class="page active">
+
+            <div class="hero">
+
+                <div class="hero-text">
+
+                    <p class="tiny-title">
+                        WELCOME TO MY LITTLE CORNER OF THE INTERNET ✦
+                    </p>
+
+                    <h1>
+                        hi, i'm <span>Angenelle.</span>
+                    </h1>
+
+                    <h2>
+                        nursing student • professional overthinker
+                    </h2>
+
+                    <p class="intro">
+                        welcome to my little digital world ♡
+                        this is where i keep tiny pieces of my life,
+                        things i love, people i adore, and random memories
+                        i don't want to forget.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <button onclick="showPage('about')" class="main-btn">
+                            enter my world →
+                        </button>
+
+                        <button onclick="surpriseMe()" class="secondary-btn">
+                            ✦ surprise me
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- COMPUTER WINDOW -->
+
+                <div class="computer-window">
+
+                    <div class="window-top">
+
+                        <span>♡ angenelle's diary</span>
+
+                        <div class="window-buttons">
+                            <span>−</span>
+                            <span>□</span>
+                            <span>×</span>
+                        </div>
+
+                    </div>
+
+                    <div class="window-content">
+
+                        <div class="profile-circle">
+                            <img src="images/me.jpg" alt="Angenelle">
+                        </div>
+
+                        <h3>hello internet! ♡</h3>
+
+                        <p>
+                            you've officially entered
+                            Angenelle's little world.
+                        </p>
+
+                        <div class="mini-info">
+
+                            <div>
+                                <strong>currently</strong>
+                                <span>surviving nursing school</span>
+                            </div>
+
+                            <div>
+                                <strong>mood</strong>
+                                <span>probably sleepy</span>
+                            </div>
+
+                            <div>
+                                <strong>location</strong>
+                                <span>somewhere in my thoughts</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- MINI DASHBOARD -->
+
+            <div class="dashboard">
+
+                <div class="dash-card">
+                    <span>♡</span>
+                    <strong>little things</strong>
+                    <p>that make me happy</p>
+                </div>
+
+                <div class="dash-card">
+                    <span>✦</span>
+                    <strong>memories</strong>
+                    <p>i want to keep</p>
+                </div>
+
+                <div class="dash-card">
+                    <span>☁</span>
+                    <strong>currently</strong>
+                    <p>figuring life out</p>
+                </div>
+
+            </div>
+</div>
+
+    <!-- MUSIC PLAYER -->
+    <div class="music-player">
+        <div class="music-icon">♫</div>
+
+        <div class="music-info">
+            <strong>now playing...</strong>
+            <span>latch by disclosure and sam smith</span>
+        </div>
+
+        <button onclick="toggleMusic()" id="musicButton">▶</button>
+    </div>
+
+    <audio id="myMusic" loop>
+        <source src="music/song.mp3" type="audio/mpeg">
+    </audio>
+
+        </section>
+
+</section>
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="page">
+
+            <div class="section-heading">
+
+                <span>♡</span>
+
+                <h2>about me</h2>
+
+                <p>a little file about the person behind this website.</p>
+
+            </div>
+
+
+            <div class="about-container">
+
+                <div class="about-window">
+
+                    <div class="file-name">
+                        about_angenelle
+                    </div>
+
+                    <h2>
+                        hey, i'm Angenelle! ♡
+                    </h2>
+
+                    <p>
+                        i'm a nursing student who spends a lot of time
+                        learning about people, life, and everything in between.
+                    </p>
+
+                    <p>
+			from pagadian, zds. 21. middle child. infj-t. has 3 lovely dogs. 
+			would love to live near the ocean someday. 
+                    <p>
+                        a little quiet at first, but deeply passionate 
+			about the things and people i care about.
+                    </p>
+                    </p>
+
+                    <div class="tags">
+
+                        <span>nursing student</span>
+                        <span>jungkook lover</span>
+                        <span>chasing oceans</span>
+                        <span>currently listening to olivia dean</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="facts-card">
+
+                    <h3>random facts ✦</h3>
+
+                    <ul>
+
+                        <li>♡ probably overthinks everything</li>
+                        <li>♡ wishing for a good gov in the ph</li>
+                        <li>♡ loves the color purple but barely owns anything purple</li>
+                        <li>♡ no 1 dream: maging baka sa switzerland</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= HOBBIES ================= -->
+
+        <section id="hobbies" class="page">
+
+            <div class="section-heading">
+
+                <span>✦</span>
+
+                <h2>things i love</h2>
+
+                <p>hover over the cards ♡</p>
+
+            </div>
+
+
+            <div class="hobby-grid">
+
+
+                <!-- MUSIC -->
+
+                <div class="flip-card">
+
+                    <div class="flip-card-inner">
+
+                        <div class="flip-card-front">
+
+                            <img src="images/music.jpg" alt="Music">
+
+                            <div class="hobby-title">
+                                🎧 music
+                            </div>
+
+                        </div>
+
+                        <div class="flip-card-back">
+
+                            <h3>music ♡</h3>
+
+                            <p>
+                                my little escape from everything
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MOVIES -->
+
+                <div class="flip-card">
+
+                    <div class="flip-card-inner">
+
+                        <div class="flip-card-front">
+
+                            <img src="images/movies.jpg" alt="Movies">
+
+                            <div class="hobby-title">
+                                🎬 movies
+                            </div>
+
+                        </div>
+
+                        <div class="flip-card-back">
+
+                            <h3>movies ♡</h3>
+
+                            <p>
+                                comfort movies, late-night watching,
+                                and getting emotionally attached to
+                                fictional characters (sunshine, i love you)
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- GOING OUT -->
+
+                <div class="flip-card">
+
+                    <div class="flip-card-inner">
+
+                        <div class="flip-card-front">
+
+                            <img src="images/goingout.jpg" alt="Going out">
+
+                            <div class="hobby-title">
+                                🌙 going out
+                            </div>
+
+                        </div>
+
+                        <div class="flip-card-back">
+
+                            <h3>going out ♡</h3>
+
+                            <p>
+                                pickle, random plans,
+                                and making memories. when next dula?
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DAYDREAMING -->
+
+                <div class="flip-card">
+
+                    <div class="flip-card-inner">
+
+                        <div class="flip-card-front">
+
+                            <img src="images/daydreaming.jpg" alt="Daydreaming">
+
+                            <div class="hobby-title">
+                                ☁ daydreaming
+                            </div>
+
+                        </div>
+
+                        <div class="flip-card-back">
+
+                            <h3>daydreaming ♡</h3>
+
+                            <p>
+                                living in my head for approximately
+                                70% of the day
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= MOVIES ================= -->
+
+        <section id="movies" class="page">
+
+            <div class="section-heading">
+
+                <span>🎬</span>
+
+                <h2>movie corner</h2>
+
+                <p>my little collection of comfort movies ♡</p>
+
+            </div>
+
+
+            <div class="movie-grid">
+
+
+                <div class="movie-card"
+                    onclick="movieMessage('current fave <3')">
+
+                    <div class="movie-image">
+
+                        <img src="images/movie1.jpg"
+                            alt="current fave <3">
+
+                    </div>
+
+                    <h3>current fave <3</h3>
+
+                    <p>amaze amaze amaze !</p>
+
+                </div>
+
+
+                <div class="movie-card"
+                    onclick="movieMessage('another fav!')">
+
+                    <div class="movie-image">
+
+                        <img src="images/movie2.jpg"
+                            alt="another fav!">
+
+                    </div>
+
+                    <h3>another fav!</h3>
+
+                    <p>disney movies just get it</p>
+
+                </div>
+
+
+                <div class="movie-card"
+                    onclick="movieMessage('movie night pick')">
+
+                    <div class="movie-image">
+
+                        <img src="images/movie3.jpg"
+                            alt="movie night pick">
+
+                    </div>
+
+                    <h3>movie night pick</h3>
+
+                    <p>ily 3000 :(</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= FRIENDS ================= -->
+
+        <section id="friends" class="page">
+
+            <div class="section-heading">
+
+                <span>♡</span>
+
+                <h2>my people</h2>
+
+                <p>i am a mosaic of everyone i've ever loved</p>
+
+            </div>
+
+
+            <div class="polaroid-container">
+
+
+                <div class="polaroid">
+
+                    <img src="images/friend1.jpg"
+                        alt="My friend">
+
+                    <p>my bbgs</p>
+
+                </div>
+
+
+                <div class="polaroid tilted">
+
+                    <img src="images/friend2.jpeg"
+                        alt="My friend">
+
+                    <p>nursing life is so much easier w you</p>
+
+                </div>
+
+
+                <div class="polaroid">
+
+                    <img src="images/friend3.jpeg"
+                        alt="My friend">
+
+                    <p>reminds me of home</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="friend-note">
+
+                </p> even when the world feels like it's ending, 
+		     there are good friends.
+                there are always good friends :)</p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= NURSING LIFE ================= -->
+
+        <section id="nursing" class="page">
+
+            <div class="section-heading">
+
+                <span>🩺</span>
+
+                <h2>my nursing life</h2>
+
+                <p>
+                    little snapshots from my life as a nursing student !
+                </p>
+
+            </div>
+
+
+            <div class="nursing-gallery">
+
+
+                <div class="nursing-photo big">
+
+                    <img src="images/nursing1.jpg"
+                        alt="Nursing life">
+
+                </div>
+
+
+                <div class="nursing-photo">
+
+                    <img src="images/nursing2.jpg"
+                        alt="Nursing life">
+
+                </div>
+
+
+                <div class="nursing-photo">
+
+                    <img src="images/nursing3.jpg"
+                        alt="Nursing life">
+
+                </div>
+
+
+                <div class="nursing-photo">
+
+                    <img src="images/nursing4.jpg"
+                        alt="Nursing life">
+
+                </div>
+
+
+                <div class="nursing-photo tall">
+
+                    <img src="images/nursing5.jpg"
+                        alt="Nursing life">
+
+                </div>
+
+
+                <div class="nursing-photo">
+
+                    <img src="images/nursing6.jpg"
+                        alt="Nursing life">
+
+                </div>
+
+
+                <div class="nursing-photo wide">
+
+                    <img src="images/nursing7.jpg"
+                        alt="Nursing life">
+
+                </div>
+
+
+                <div class="nursing-photo">
+
+                    <img src="images/nursing8.jpg"
+                        alt="Nursing life">
+
+                </div>
+
+
+                <div class="nursing-photo">
+
+                    <img src="images/nursing9.jpg"
+                        alt="Nursing life">
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- SECRET BUTTON -->
+
+    <button class="secret-button"
+        onclick="secret()">
+
+        ✦
+
+    </button>
+
+
+
+    <!-- POPUP -->
+
+    <div id="popup"
+        class="popup">
+
+        <div class="popup-box">
+
+            <button class="close-popup"
+                onclick="closePopup()">
+
+                ×
+
+            </button>
+
+            <div id="popupMessage">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        made with ♡ by Angenelle
+
+        <br>
+
+        <span>
+            © my little corner of the internet
+        </span>
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+
+        /* PAGE SWITCHING */
+
+        function showPage(pageId) {
+
+            const pages =
+                document.querySelectorAll(".page");
+
+            pages.forEach(page => {
+
+                page.classList.remove("active");
+
+            });
+
+
+            const selectedPage =
+                document.getElementById(pageId);
+
+            selectedPage.classList.add("active");
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+
+        }
+
+
+
+        /* POPUP */
+
+        function openPopup(message) {
+
+            document.getElementById("popupMessage")
+                .innerHTML = message;
+
+            document.getElementById("popup")
+                .classList.add("show");
+
+        }
+
+
+        function closePopup() {
+
+            document.getElementById("popup")
+                .classList.remove("show");
+
+        }
+
+
+
+        /* SURPRISE */
+
+        function surpriseMe() {
+
+            const messages = [
+
+                "♡ reminder: you're doing better than you think.",
+
+                "✦ Angenelle.exe is currently overthinking.",
+
+                "☁ take a little break. drink some water.",
+
+                "🩺 future nurse detected.",
+
+                "♡ someone out there is glad you exist.",
+
+                "✦ you found a tiny message hidden in the website."
+
+            ];
+
+            const random =
+                messages[
+                    Math.floor(
+                        Math.random() * messages.length
+                    )
+                ];
+
+            openPopup(random);
+
+        }
+
+
+
+        /* MOVIES */
+
+        function movieMessage(movie) {
+
+            openPopup(
+                "🎬 <strong>" +
+                movie +
+                "</strong><br><br>" +
+                "this movie has a special place in my little heart ♡"
+            );
+
+        }
+
+        /* MUSIC */
+
+        function toggleMusic() {
+    const music = document.getElementById("myMusic");
+    const button = document.getElementById("musicButton");
+
+    if (music.paused) {
+        music.play();
+        button.textContent = "❚❚";
+    } else {
+        music.pause();
+        button.textContent = "▶";
+    }
+}
+
+
+
+        /* SECRET */
+
+        function secret() {
+
+            openPopup(
+                "✦ you found the secret button! ✦<br><br>" +
+                "congratulations, you have officially discovered " +
+                "a hidden corner of Angenelle's internet ♡"
+            );
+
+        }
+
+
+
+        /* CLICK OUTSIDE POPUP */
+
+        document
+            .getElementById("popup")
+            .addEventListener("click", function(event) {
+
+                if (event.target === this) {
+
+                    closePopup();
+
+                }
+
+            });
+
+
+
+        /* MOUSE SPARKLES */
+
+        document.addEventListener(
+            "mousemove",
+            function(event) {
+
+                const sparkle =
+                    document.createElement("span");
+
+                sparkle.className =
+                    "cursor-sparkle";
+
+                sparkle.innerHTML = "✦";
+
+                sparkle.style.left =
+                    event.clientX + "px";
+
+                sparkle.style.top =
+                    event.clientY + "px";
+
+                document.body.appendChild(sparkle);
+
+
+                setTimeout(() => {
+
+                    sparkle.remove();
+
+                }, 700);
+
+            }
+        );
+
+    </script>
+
+</body>
+
+</html>
